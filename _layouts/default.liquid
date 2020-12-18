@@ -5,9 +5,37 @@
     </head>
 
     <body>
+        {% include navbar.liquid %}
+
+        <div class="view jarallax" style="height: 100vh;">
+            <img class="jarallax-img" src="{{ site.baseurl }}/assets/images/wood_background_blur.jpg" alt="">
+
+            <div class="container h-100">
+                <div class="row align-items-center h-100">
+                    <div class="col-sm-4 mx-auto">
+                        <div class="justify-content-center h-100">
+                            <div>
+                                <h2 class="definition">burl (noun): a rounded knotty growth on a tree that yields highly figured wood, prized for its beauty and rarity.</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="container">
-            <div class="row justify-content-center my-4"> 
-                <p>burl: a rounded knotty growth on a tree that yields highly figured wood, prized for its beauty and rarity.</p>
+            <div class="row">
+                <div class="col-sm-2 text-center">
+                    <p>All of our hardwoods are sustainably sourced from Northern Michigan</p>
+                </div>
+
+                <div class="col-sm-2 text-center">
+                    <p>We make things real nice.</p>
+                </div>
+
+                <div class="col-sm-2 text-center">
+                    <p>And we want to make something real nice for you too</p>
+                </div>
             </div>
         </div>
     </body>
