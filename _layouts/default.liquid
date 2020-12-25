@@ -7,34 +7,23 @@
     <body>
         {% include navbar.liquid %}
 
-        <div class="view jarallax" style="height: 100vh;">
-            <img class="jarallax-img" src="{{ site.baseurl }}/assets/images/wood_background_blur.jpg" alt="">
-
-            <div class="container h-100">
-                <div class="row align-items-center h-100">
-                    <div class="col-sm-4 mx-auto">
-                        <div class="justify-content-center h-100">
-                            <div>
-                                <h2 class="definition">burl (noun): a rounded knotty growth on a tree that yields highly figured wood, prized for its beauty and rarity.</h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        {% include jumbotron.liquid %}
 
         <div class="container">
-            <div class="row">
-                <div class="col-sm-2 text-center">
+            <div class="row justify-content-center">
+                <div class="col-sm-3 text-center">
+                    <img class="mb-3" src="{{ site.basurl }}/assets/icons/lumberjack_color.png" height="128px" width="128px">
                     <p>All of our hardwoods are sustainably sourced from Northern Michigan</p>
                 </div>
 
-                <div class="col-sm-2 text-center">
-                    <p>We make things real nice.</p>
+                <div class="col-sm-3 text-center">
+                    <img class="mb-3" src="{{ site.basurl }}/assets/icons/table-saw.png" height="128px" width="128px">
+                    <p>State of the art precision equipment ensures all our pieces are of the highest quality.</p>
                 </div>
 
-                <div class="col-sm-2 text-center">
-                    <p>And we want to make something real nice for you too</p>
+                <div class="col-sm-3 text-center">
+                    <img class="mb-3" src="{{ site.basurl }}/assets/icons/desk.png" height="128px" width="128px">
+                    <p>We work directly with you to build and design custom woodwork.</p>
                 </div>
             </div>
         </div>
